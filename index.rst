@@ -1,18 +1,18 @@
+OPENVENTI
+=========
 
-Documentacion de OpenVenti
-=============
+El objetivo de OpenVenti es diseñar un Respirador Artificial que cualquiera pueda construir en cualquier país, para mitigar el problema que hoy en día existe en los hospitales del mundo, 
+y dar una oportunidad a miles de pacientes que son devueltos a casa sin esperanza de sobrevivir.”
 
-Documentacion para el proyecto aquí se detallara el proyecto en tres secciones.
-
-- Aplicacion Movil.
-- B.
-- Firmware.
+.. image:: files/img/diagrama.png
+  :width: 400
+  :alt: Alternative text
 
 .. toctree::
    :hidden:
 
-   files/frontend
-   files/backend
+   files/app
+   files/datos
    files/logic
    
 

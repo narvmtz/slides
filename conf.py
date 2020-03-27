@@ -120,7 +120,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo='file/img/logo.png'
+html_logo = 'files/img/oventi.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -199,7 +199,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'Django_React.tex', u'OpenVenti_Documentacion',
+  ('index', 'OpenVenti_Documentacion.tex', u'OpenVenti_Documentacion',
    u'', 'manual')
 ]
 
@@ -229,7 +229,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'Django_React', u'Django_React',
+    ('index', 'OpenVenti_Documentacion', u'OpenVenti_Documentacion',
      [u'Byron Gomez'], 1)
 ]
 
@@ -244,7 +244,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'Documentacion', u'Documentacion',
-   u'Byron Gómez', 'Documentación', 'Github',
+   u'OpenVenti', 'Documentación', 'Github',
    'Miscellaneous'),
 ]
 

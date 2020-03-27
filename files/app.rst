@@ -1,10 +1,15 @@
 
-Aplicación Movil
-================
 
 APLICACION MOVIL
 ================
 
 
 
+DESCRIPCION GENERAL
+-------------------
+
+
+
+INTERFAZ GRAFICA
+----------------
 
