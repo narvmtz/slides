@@ -3,13 +3,13 @@ OPENVENTI
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 6
    :caption: Contenidos:
    
 
-   app
-   datos
-   logic
+   hardware
+   software
+
 
 
 

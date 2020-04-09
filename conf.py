@@ -30,6 +30,8 @@ import os
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -47,7 +49,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'Open-Venti'
 
-copyright = u'2019,GPL'
+copyright = u'2020,GPL'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -130,7 +132,7 @@ html_logo = 'files/img/oventi.png'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['nstatic']
+html_static_path = ['nstatic','/files/docs/']
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
@@ -179,7 +181,7 @@ html_static_path = ['nstatic']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Django_React'
+htmlhelp_basename = 'Open_Venti'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -230,7 +232,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'OpenVenti_Documentacion', u'OpenVenti_Documentacion',
-     [u'Byron Gomez'], 1)
+     [u'OpenVenti'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -244,7 +246,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'Documentacion', u'Documentacion',
-   u'OpenVenti', 'Documentación', 'Github',
+   u'OpenVenti', 'Documentación', 'OpenVenti',
    'Miscellaneous'),
 ]
 

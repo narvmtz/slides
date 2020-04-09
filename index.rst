@@ -1,18 +1,24 @@
 OPENVENTI
 =========
 
-El objetivo de OpenVenti es diseñar un Respirador Artificial que cualquiera pueda construir en cualquier país, para mitigar el problema que hoy en día existe en los hospitales del mundo, 
-y dar una oportunidad a miles de pacientes que son devueltos a casa sin esperanza de sobrevivir.”
+**DESCRIPTION**
+
+OpenVenti's goal is to design a ventilator that anyone can build in any country, to mitigate the problem that exists today in hospitals around the world, 
+and give a chance to thousands of patients who are sent home with no hope of survival."
 
 .. image:: files/img/diagrama.png
-  :width: 400
-  :alt: Alternative text
+  :width: 550
+
+**WEBSITE**
+
+**CONTENT**
+
 
 .. toctree::
-   :hidden:
-
-   files/app
-   files/datos
-   files/logic
+    :maxdepth: 6
+  
+   files/hardware
+   files/software
+  
    
 
