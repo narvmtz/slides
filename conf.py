@@ -248,7 +248,7 @@ texinfo_documents = [
   ('index', 'Documentacion', u'Documentacion',
    u'IPCA', 'Documentación', 'IPCA',
    'Miscellaneous'),
-s]
+]
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
