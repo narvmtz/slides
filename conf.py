@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Open-Venti'
+project = u'IPCA_GOOL'
 
 copyright = u'2020,GPL'
 
@@ -122,7 +122,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = 'files/img/oventi.png'
+html_logo = 'files/img/indice.jfif'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
@@ -181,7 +181,7 @@ html_static_path = ['nstatic','/files/docs/']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Open_Venti'
+htmlhelp_basename = 'IPCA_GOOL'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -201,7 +201,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'OpenVenti_Documentacion.tex', u'OpenVenti_Documentacion',
+  ('index', 'Ipca.tex', u'Ipca',
    u'', 'manual')
 ]
 
@@ -231,8 +231,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'OpenVenti_Documentacion', u'OpenVenti_Documentacion',
-     [u'OpenVenti'], 1)
+    ('index', 'IPCA_GOOL', u'IPCA_GOOL',
+     [u'IPCA'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -246,9 +246,9 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'Documentacion', u'Documentacion',
-   u'OpenVenti', 'Documentación', 'OpenVenti',
+   u'IPCA', 'Documentación', 'IPCA',
    'Miscellaneous'),
-]
+s]
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
