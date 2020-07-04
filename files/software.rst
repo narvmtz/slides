@@ -46,7 +46,7 @@ Los Botones de Interacción permiten al jugador realizar las 3 siguientes accion
     1) JUGAR
     2) INICIO
     3) SALIR
-    4) 
+    
 
 
 PORTERIA
