@@ -3,12 +3,7 @@ IPCAGOOL
 
 **DESCRIPCIÓN**
 
-
-
-.. image:: files/img/diagrama.png
-  :width: 550
-
-
+Es una aplicación que mediante la interacción ludica  con niños para que estos mejoren su psicomotricidad.
 
 **CONTENIDO**
 
