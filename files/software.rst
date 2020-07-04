@@ -10,8 +10,7 @@ UNITY
 
 **Estructura de la Aplicación**
 
-.. image:: img/structure.png
-  :width: 400
+
 
 WORKFLOW
 --------
