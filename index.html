@@ -46,8 +46,8 @@
         <p style="font-size: 80%;margin-left: 20px;"><img class="plain" src="img/twitter.png"
             style="background: rgba(0,0,0,0);height: 30px; border: 0px; vertical-align: middle;">&nbsp;#PythonDocsEs</img>
         </p>
-        <p style="font-size: 85%;margin-top: 10%;">
-        </p>
+        <!-- <p style="font-size: 85%;margin-top: 10%;">
+        </p> -->
       </section>
 
       <!-- <section>
@@ -128,11 +128,11 @@
         </p>
         <div id="center">
           <ul style="font-size: 70%;">
-            <li class="fragment" data-fragment-index="1">143 Issues abiertas
+            <li class="fragment" data-fragment-index="1">141 Issues abiertas
               <!-- <br /> <i class="pydarkyellow">(133 sin
                 asignar)</i> -->
             </li>
-            <li class="fragment" data-fragment-index="2">179 PR abiertas
+            <li class="fragment" data-fragment-index="2">182 PR abiertas
               <!-- <br /> <i class="pylightblue">(479 cerradas)</i> -->
             </li>
             <li class="fragment" data-fragment-index="3">143 personas en Telegram</li>
@@ -146,12 +146,12 @@
 
         <div id="left">
           <ul style="font-size: 70%;">
-            <li class="fragment" data-fragment-index="1"><i class="gray"><strike>143</strike></i> 14 Issues
+            <li class="fragment" data-fragment-index="1">141 Issues
               abiertas<br />
               <!-- <i class="pydarkyellow">(26 sin
                 asignar)</i> -->
             </li>
-            <li class="fragment" data-fragment-index="2"><i class="gray"><strike>179</strike></i> 38 PR abiertas<br />
+            <li class="fragment" data-fragment-index="2">182 PR abiertas<br />
               <!-- <i class="pylightblue">(290 cerradas)</i> -->
             </li>
             <li class="fragment" data-fragment-index="3">143 personas en Telegram</li>
@@ -161,29 +161,29 @@
           <ul style="font-size: 70%;">
             <li class="fragment" data-fragment-index="1">
               <!-- <i class="gray"><strike>138</strike></i> -->
-              <i class="green">129</i>
+              <i class="green">127</i>
               Issues Cerradas<br />
               <!-- <i class="pydarkyellow">
                 (<i class="gray"><strike>21</strike></i>17 sin asignar)</i> -->
             </li>
             <li class="fragment" data-fragment-index="2">
-              <i class="green">141</i> PR Mergeadas<br />
+              <i class="green">140</i> PR Mergeadas<br />
               <!-- <i
                 class="pylightblue">(<i class="gray"><strike>321</strike></i> 328 cerradas)</i> -->
             </li>
             <li class="fragment" data-fragment-index="3">
               <!-- <i class="gray"><strike>94</strike></i> -->
-              <i class="green">63</i>
+              <i class="green">61</i>
               Colaboradores Activos</li>
           </ul>
         </div>
 
       </section>
 
-      <section>
+      <!-- <section>
         <h2 style="font-size: 90%;"><i class="green">Progreso de la traducción 🎉</i></h2>
         <img src="./img/progreso.jpg" alt="progreso de la traducción" style="border-radius: 1%;">
-      </section>
+      </section> -->
 
       <!-- <section>
         <h3 style="font-size: 90%;">Colaboraciones 💪 <i class="green">(d&iacute;a 1)</i></h3>
@@ -240,23 +240,23 @@
 
 
 
-      <!-- <section>
+      <section>
         <h3>¿Cómo Comienzo?</h3>
         <a style="font-size: 80%;"
           href="https://python-docs-es.readthedocs.io/es/3.8/CONTRIBUTING.html">python-docs-es.readthedocs.io/es/3.8/CONTRIBUTING.html</a>
       </section>
 
-      <section>
+      <!-- <section>
         <img src="img/githubpythondocses.png"
           style="background: rgba(0,0,0,0);width: 90%;border: 0px; vertical-align: middle;" />
-      </section>
+      </section> -->
 
       <section>
         <img src="img/githubpythondocses1.png"
           style="background: rgba(0,0,0,0);width: 90%;border: 0px; vertical-align: middle;" />
       </section>
 
-      <section>
+      <!-- <section>
         <img src="img/githubpythondocses2.png"
           style="background: rgba(0,0,0,0);width: 90%;border: 0px; vertical-align: middle;" />
       </section>
@@ -268,6 +268,37 @@
 
       <section>
         <img src="img/thumbsup.gif" style="background: rgba(0,0,0,0);width: 60%;border: 0px; vertical-align: middle;" />
+      </section> -->
+
+      <!-- <section>
+        <h3>Configuración local</h3>
+        <ul style="font-size: 80%;">
+          <li>Python 3.6+</li>
+          <li><i class="pylightblue">(recomendado)</i> Crear un entorno virtual</li>
+          <pre style="font-size: 95%;width: 95%;"><code class="bash" data-trim data-noescape>
+            $ python -m venv env
+            $ source env/bin/activate # Unix
+            $ env\Scripts\activate    # Windows
+            $ pip install powrap pospell
+            </code></pre>
+          <li>Instalar <i class="pylightblue"><code>poedit</code></i> para traducción <i class="pydarkyellow">más
+              organizada</i>.</li>
+        </ul>
+      </section> -->
+
+      <section>
+        <h3>Flujo de trabajo</h3>
+        <ul style="font-size: 80%;">
+          <li class="fragment" data-fragment-index="1">Pedir un <i class="pydarkyellow">Issue</i> sin asignar</li>
+          <li class="fragment" data-fragment-index="2">Crear una <i class="pylightblue">rama local</i>
+            <pre style="font-size: 90%;width: 100%;"><code class="bash" data-trim data-noescape>
+                  # Para archivo 'xyz'
+                  $ git checkout -b traduccion_xyz
+                  </code></pre>
+          <li class="fragment" data-fragment-index="3">Traducir y enviar un <i class="pydarkyellow">Pull-request</i>!
+          </li>
+          </li>
+        </ul>
       </section>
 
       <section>
@@ -282,48 +313,13 @@
       </section>
 
       <section>
-        <h3>Configuración local</h3>
-        <ul style="font-size: 80%;">
-          <li>Python 3.6+</li>
-          <li><i class="pylightblue">(recomendado)</i> Crear un entorno virtual</li>
-          <pre style="font-size: 95%;width: 95%;"><code class="bash" data-trim data-noescape>
-            $ python -m venv env
-            $ source env/bin/activate # Unix
-            $ env\Scripts\activate    # Windows
-            $ pip install powrap pospell
-            </code></pre>
-          <li>Instalar <i class="pylightblue"><code>poedit</code></i> para traducción <i class="pydarkyellow">más
-              organizada</i>.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h3>Flujo de trabajo</h3>
-        <ul style="font-size: 80%;">
-          <li class="fragment" data-fragment-index="1">Pedir un <i class="pydarkyellow">Issue</i> sin asignar</li>
-          <li class="fragment" data-fragment-index="2">Crear una <i class="pylightblue">rama local</i>
-            <pre style="font-size: 90%;width: 100%;"><code class="bash" data-trim data-noescape>
-            # Para archivo 'xyz'
-            $ git checkout -b traduccion_xyz
-            </code></pre>
-          <li class="fragment" data-fragment-index="3">Traducir y enviar un <i class="pydarkyellow">Pull-request</i>!
-          </li>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <img src="img/easy.gif" style="background: rgba(-1,0,0,0);width: 60%;border: 0px; vertical-align: middle;" />
-      </section>
-
-      <section>
         <img src="img/travis.png" style="background: rgba(-1,0,0,0);width: 60%;border: 0px; vertical-align: middle;" />
       </section>
 
-      <section>
+      <!-- <section>
         <img src="img/thisisfine.gif"
           style="background: rgba(0,0,0,0);width: 60%;border: 0px; vertical-align: middle;" />
-      </section>
+      </section> -->
 
       <section>
         <h3>Problemas comunes (1/3)</h3>
@@ -365,10 +361,11 @@
             </p>
           </li>
         </ul>
-      </section> -->
+      </section>
       <section>
         <!-- <h3 style="font-size: 80%;"><i class="pydarkyellow">¿otro problema o duda?</i></h3> -->
-        <h3>¡Unéte!</h3>
+        <h3 style="font-size: 80%;"><i class="pydarkyellow">¿otro problema o duda?</i></h3>
+        <h3>Preguntas Frecuentes 📖</h3>
         <a style="font-size: 90%;"
           href="https://python-docs-es.readthedocs.io/es/3.8/faq.html">python-docs-es.readthedocs.io/es/3.8/faq.html</a>
       </section>
